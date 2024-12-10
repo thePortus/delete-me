@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="theartofpoetry">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">The Art of Poetry</title>
+                <author>Roque Dalton</author>
+                <editor role="translator" sameAs="#hsm">Hardie St. Martin</editor>
+                <editor role="translator" xml:id="jg">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                <editor role="editor" xml:id="hsm">Hardie St. Martin</editor>
+                <editor role="digital-edition-editor" xml:id="ib">Isabella Baker</editor>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName resp="#ib">Isabella Baker</persName>
+                </respStmt>
+                <sponsor>Boston College</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Fall 2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+            <authority>Isabella Baker</authority>
+                <availability>
+                    <p>Licensed under a
+                        <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Any reuse of the material should credit Isabella Baker. Permission to reproduce the graphic images of the original item should be sought by the original publisher.
+                    </p>
+                </availability>
+                <idno>theartofpoetry</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">I have chosen my definition and categorization of “marxist rhetoric” based on James Martin's 2022 article “Marx's Rhetoric,”
+                    featured in the Goldsmiths Research online repository. I focus on his detailed explanation of the rhetoric of criticism, dynamics of class
+                    politics, and rhetoric of critical political economy. I often choose to mark phrases that read as “call to actions,” as Martin claims that 
+                    Marx sought to urge the working class to become forces of social and political change. I also zone in on themes of martyrdom, that seem to 
+                    align themselves with critiquing the governing classes while lauding the sacrifices of the lower (or change-making) classes.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <editor>Hardie St. Martin</editor>
+                    <editor role="translator">Hardie St. Martin</editor>
+                     <editor role="translator">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                    <date when="1996-09">September 1996</date>
+                    <title>Small Hours of the Night: Selected Poems of Roque Dalton</title>
+                    <idno type="isbn">9781880684351</idno>
+                    <publisher>Northwestern University Press</publisher>
+                    <note type="project">Transcribed from digital images of this translated editions of Dalton's poems.</note>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <date when="2015">2015</date>
+                    <title>El Turno del Ofendido</title>
+                    <idno type="isbn">9781925019742</idno>
+                    <publisher>Ocean Sur</publisher>
+                    <note type="project">The Spanish text does not appear in this file, but is available as a PDF on the website.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+           <change who="#ib" when="2024-10-28">Created document and added basic structural TEI.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb facs="the-art-poetry-english.pdf" xml:id="leaf001"/>
+            <div1 type="poem">
+               
+                <head type="main-authorial">THE ART OF POETRY</head>
+            <note type="dedication"> To Raul Castellanos </note>
+            
+                <lg type="stanza">
+                
+                    <l>Anguish exists. </l>
+                    </lg>
+                    <lg>
+                    <l>Man uses his old disasters like a mirror. </l>
+                    </lg>
+                    <lg>
+                    <l>An hour or so after dusk </l>
+                    <l>the man picks up the painful remnants of his day </l>
+                    <l>and worried sick he puts them right next to his heart </l>
+                    <l>he sweats like a TB patient fighting for his life </l>
+                    <l>and sinks into his deep lonely rooms. </l>
+                    <l>There buried in his thoughts he smokes </l>
+                    <l>he'd like to invent ruinous cobwebs on the ceiling </l>
+                    <l>he hates the flower's fresh look </l>
+                    <l>he withdraws into his own asphyxiating skin </l>
+                    <l>he looks at his coarse feet </l>
+                    <l>he thinks his bed's his grave day after day </l>
+                    <l>he doesn't have a penny to his name </l>
+                    <l>he's hungry </l>
+                    <l>and breaks into sobs. </l>
+                    </lg>
+                    <lg>
+                    <l>But men all other men </l>
+                    <l>bare their chests to the sun without a care </l>
+                    <l>or to the killings in the streets </l>
+                    <l>they lift the faces of the loaves out of the ovens </l>
+                    <l>like a generous banner against hunger </l>
+                    <l>they laugh with children until even the air hurts </l>
+                    <l>they cram tiny footsteps into the wombs of blessed women </l>
+                    <l>they split open like fruit rocks obstinate in their solemnity </l>
+                    <l>they sing naked into the inviting glass of water </l>                
+                    <l>they joke with the sea taking it by the horns playfully </l>
+                    <l>they build houses of light in the song-filled wilderness </l>
+                    <l>they get drunk like God everywhere </l>
+                    <l><interp type="marxist-rhetoric">they set their fists against despair</interp><ptr target="#no1"/></l>
+                    <l><interp type="marxist-rhetoric">their avenging fires against crime</interp><ptr target="#no2"/> </l>
+                    <pb facs="the-art-poetry-english.pdf" xml:id="leaf002"/>
+                    <l>their love with its interminable roots</l>
+                    <l>against <interp type="marxist-rhetoric">hatred's vicious scythe.</interp><ptr target="#no3"/></l>
+                    </lg>
+                    <lg>
+                    <l>Yes, anguish exists.</l>
+                    </lg>
+                    <lg>
+                    <l>Like despair </l>
+                    <l>crime </l>
+                    <l>or hate. </l>
+                    </lg>
+                    <lg>
+                    <l>Who should the poet's voice be for? </l>
+                    </lg>
+              <note type="editorial" target="#hsm"> [HSM] </note>
+            </div1>
+             <note xml:id="no1">The "men" that Dalton speak about seem to exist unapologetically, and rage on regardless of
+             the circumstances. Despair may be an emotional symbol for oppressive powers, and the men are willing to urgently 
+             "shake their fists" at it.</note>
+            <note xml:id="no2">This is very similar sentiment to the previous line, but utilized more overt notions of justice
+            vis-a-vis the notion of "avenging crimes."</note>
+            <note xml:id="no3">Scythes are associated with reaping and death; quite literally the cutting down of lives en masse
+            in the same way as sheaves of wheat. The vicious scythe may be another symbol of governmental oppression.</note>
+        </body>
+    </text>
+</TEI>

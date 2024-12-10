@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="becauseispokeout">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Because I Spoke Out</title>
+                <author>Roque Dalton</author>
+                <editor role="translator" sameAs="#hsm">Hardie St. Martin</editor>
+                <editor role="translator" xml:id="jg">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                <editor role="editor" xml:id="hsm">Hardie St. Martin</editor>
+                <editor role="digital-edition-editor" xml:id="ib">Isabella Baker</editor>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName resp="#ib">Isabella Baker</persName>
+                </respStmt>
+                <sponsor>Boston College</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Fall 2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+            <authority>Isabella Baker</authority>
+                <availability>
+                    <p>Licensed under a
+                        <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Any reuse of the material should credit Isabella Baker. Permission to reproduce the graphic images of the original item should be sought by the original publisher.
+                    </p>
+                </availability>
+                <idno>becauseispokeout</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">I have chosen my definition and categorization of “marxist rhetoric” based on James Martin's 2022 article “Marx's Rhetoric,”
+                    featured in the Goldsmiths Research online repository. I focus on his detailed explanation of the rhetoric of criticism, dynamics of class
+                    politics, and rhetoric of critical political economy. I often choose to mark phrases that read as “call to actions,” as Martin claims that 
+                    Marx sought to urge the working class to become forces of social and political change. I also zone in on themes of martyrdom, that seem to 
+                    align themselves with critiquing the governing classes while lauding the sacrifices of the lower (or change-making) classes.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <editor>Hardie St. Martin</editor>
+                    <editor role="translator">Hardie St. Martin</editor>
+                     <editor role="translator">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                    <date when="1996-09">September 1996</date>
+                    <title>Small Hours of the Night: Selected Poems of Roque Dalton</title>
+                    <idno type="isbn">9781880684351</idno>
+                    <publisher>Northwestern University Press</publisher>
+                    <note type="project">Transcribed from digital images of this translated editions of Dalton's poems.</note>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <date when="2015">2015</date>
+                    <title>El Turno del Ofendido</title>
+                    <idno type="isbn">9781925019742</idno>
+                    <publisher>Ocean Sur</publisher>
+                    <note type="project">The Spanish text does not appear in this file, but is available as a PDF on the website.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#ib" when="2024-10-28">Created document and added basic structural TEI.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb facs="because-i-spoke-out-english.pdf"/>
+            <div1 type="poem">
+               
+                <head type="main-authorial">BECAUSE I SPOKE OUT</head>
+            
+            
+                <lg type="stanza">
+                
+                    <l>The last hired mourner went off </l>
+                    <l>to look for <interp type="marxist-rhetoric">comfort among fools.</interp><ptr target="#no1"/></l>
+                    </lg>
+                    <lg>
+                    <l>(I could <interp type="marxist-rhetoric">stand naked in this huge town square</interp><ptr target="#no2"/></l>
+                    <l>lit up by the phosphorescences of the stillness</l>
+                    <l>and there would be no intruders to stare at me. </l>
+                    </lg>
+                    <lg>
+                    <l>Oh this desertion is deadly</l>
+                    <l>it makes its own chill sprout from the flames.) </l>
+                    </lg>
+                    <lg>
+                    <l>I hope someone will come to hear me again</l>
+                    <l> and weep with me to the end.</l>
+                    </lg>
+                    <lg>
+                    <l>Maybe then <interp type="marxist-rhetoric">I'll be strong enough to make the truth less bitter.</interp><ptr target="#no3"/></l>
+                </lg>
+              <note type="editorial" target="#hsm"> [HSM] </note>
+            </div1>
+            <note xml:id="no1">Marxism requires active criticism of existing structures. Avoiding awareness about the
+            state of oppression, despite being a form of slowl, violent passivity, does allow an ignorant comfort.</note>
+            <note xml:id="no2">To bring truth and change to the masses is to bare your soul until there's nothing or
+            no one left.</note>
+            <note xml:id="no3">As Dalton exists in a vunerable state through his exile, he mourns his struggle to make his
+            Marxist beliefs known, especially since he is isolated from his beloved Salvadoran people.</note>
+        </body>
+    </text>
+</TEI>

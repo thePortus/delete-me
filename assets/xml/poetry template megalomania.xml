@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="megalomania">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Megalomania</title>
+                <author>Roque Dalton</author>
+                <editor role="translator" sameAs="#hsm">Hardie St. Martin</editor>
+                <editor role="translator" xml:id="jg">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                <editor role="editor" xml:id="hsm">Hardie St. Martin</editor>
+                <editor role="digital-edition-editor" xml:id="ib">Isabella Baker</editor>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName resp="#ib">Isabella Baker</persName>
+                </respStmt>
+                <sponsor>Boston College</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Fall 2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+            <authority>Isabella Baker</authority>
+                <availability>
+                    <p>Licensed under a
+                        <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Any reuse of the material should credit Isabella Baker. Permission to reproduce the graphic images of the original item should be sought by the original publisher.
+                    </p>
+                </availability>
+                <idno>megalomania</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">I have chosen my definition and categorization of “marxist rhetoric” based on James Martin's 2022 article “Marx's Rhetoric,”
+                    featured in the Goldsmiths Research online repository. I focus on his detailed explanation of the rhetoric of criticism, dynamics of class
+                    politics, and rhetoric of critical political economy. I often choose to mark phrases that read as “call to actions,” as Martin claims that 
+                    Marx sought to urge the working class to become forces of social and political change. I also zone in on themes of martyrdom, that seem to 
+                    align themselves with critiquing the governing classes while lauding the sacrifices of the lower (or change-making) classes.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <editor>Hardie St. Martin</editor>
+                    <editor role="translator">Hardie St. Martin</editor>
+                     <editor role="translator">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                    <date when="1996-09">September 1996</date>
+                    <title>Small Hours of the Night: Selected Poems of Roque Dalton</title>
+                    <idno type="isbn">9781880684351</idno>
+                    <publisher>Northwestern University Press</publisher>
+                    <note type="project">Transcribed from digital images of this translated editions of Dalton's poems.</note>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <date when="2015">2015</date>
+                    <title>El Turno del Ofendido</title>
+                    <idno type="isbn">9781925019742</idno>
+                    <publisher>Ocean Sur</publisher>
+                    <note type="project">The Spanish text does not appear in this file, but is available as a PDF on the website.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change who="#ib" when="2024-10-28">Created document and added basic structural TEI.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb facs="megalomania-english.pdf"/>
+            <div1 type="poem">
+               
+                <head type="main-authorial">MEGALOMANIA</head>
+            
+                <lg type="stanza">
+                
+                    <l>Frederick II was emperor of the <interp type="marxist-rhetoric">high-and-mighty</interp><ptr target="#no1"/>Germans and yet </l>
+                    <l><interp type="marxist-rhetoric">he was excommunicated by the Pope</interp><ptr target="#no2"/></l>
+                    <l>because he made the study of medicine a requisite for doctors </l>
+                    <l>before they could prescribe infusions for a fee </l>
+                    <l>or cut off flesh from a person's flesh. </l>
+                    </lg>
+                    <lg>
+                    <l><interp type="marxist-rhetoric">Miguel Servet was excommunicated shortly before</interp><ptr target="#no3"/></l> 
+                    <l>they reduced him to ashes: </l>
+                    <l>they say this was to speed it up for him</l> 
+                    <l>to go on discussing the advanced sciences in restful eternity.</l>
+                    </lg>
+                    <lg>
+                    <l>Martin Lutherbbelieved God the Father's divine liver acted up </l>
+                    <l>whenever he looked through the clouds and saw fat priests </l>
+                    <l>running around </l> <!--justify right-->
+                    </lg>
+                    <lg>
+                    <l><interp type="marxist-rhetoric">city neighborhoods getting rich</interp><ptr target="#no4"/> from the sale of indulgences </l>
+                    <l>paid in hardcash, </l> <!--justify right-->
+                    </lg>
+                    <lg>
+                    <l><interp type="marxist-rhetoric">He was thrown out of the Church</interp><ptr target="#no5"/>for defending God's liver</l>
+                    </lg>
+                    <lg>
+                    <l>Thin, puny, with wary eye and down-trodden look, </l>
+                    <l>I'd have to perform marvelous actions like theirs </l>
+                    <l>to be also thrown out of the Church </l>
+                    <l>and save my artless vanity forever. </l>
+                    </lg>
+              <note type="editorial" target="#hsm"> [HSM] </note>
+            </div1>
+            <note xml:id="no1">Marx often critiqued class issues, namely to do with property relations. Dalton refers to the "high and mighty"
+            Germans, who were a foremost military and world power during Frederick II's reign. Dalton here recognizes the downfall of powerful
+            structures, even ones on a national scale,like the Catholic church. He also betrays a level of atheism inherent in Marxism as he 
+            criticized the Pope's dictator-like power to abide by religion over science.  </note>
+            <note xml:id="no2">Dalton seems to be laying out the consequences for class/political hierarchies. Power structures do not easily
+            allow a change of the status quo, even if that change is clearly for the better of the masses.</note>
+            <note xml:id="no3">Another instance of a significant member of the "logical" sciences, creating something to better the masses,
+            and being punished for it.</note>
+            <note xml:id="no4">This is another example of class politics rhetoric, specifically referring to areas near cities that profit off
+            urban resources and centrality, without engaging with the downfalls and poverties of urban life. </note>
+            <note xml:id="no5">Another appeal against organized religion in comparison to his list of martyrs..</note>
+        </body>
+    </text>
+</TEI>

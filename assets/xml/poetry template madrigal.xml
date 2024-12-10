@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="madrigal">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">Madrigal</title>
+                <author>Roque Dalton</author>
+                <editor role="translator" sameAs="#hsm">Hardie St. Martin</editor>
+                <editor role="translator" xml:id="jg">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                <editor role="editor" xml:id="hsm">Hardie St. Martin</editor>
+                <editor role="digital-edition-editor" xml:id="ib">Isabella Baker</editor>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName resp="#ib">Isabella Baker</persName>
+                </respStmt>
+                <sponsor>Boston College</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Fall 2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>Isabella Baker</authority>
+                <availability>
+                    <p>Licensed under a
+                        <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Any reuse of the material should credit Isabella Baker. Permission to reproduce the graphic images of the original item should be sought by the original publisher.
+                    </p>
+                </availability>
+                <idno>madrigal</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">I have chosen my definition and categorization of “marxist rhetoric” based on James Martin's 2022 article “Marx's Rhetoric,”
+                    featured in the Goldsmiths Research online repository. I focus on his detailed explanation of the rhetoric of criticism, dynamics of class
+                    politics, and rhetoric of critical political economy. I often choose to mark phrases that read as “call to actions,” as Martin claims that 
+                    Marx sought to urge the working class to become forces of social and political change. I also zone in on themes of martyrdom, that seem to 
+                    align themselves with critiquing the governing classes while lauding the sacrifices of the lower (or change-making) classes </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <editor>Hardie St. Martin</editor>
+                    <editor role="translator">Hardie St. Martin</editor>
+                     <editor role="translator">James Graham</editor>
+                      <editor role="translator">Jonathan Cohen</editor>
+                       <editor role="translator">Ralph Nelson</editor>
+                        <editor role="translator">Paul Pines</editor>
+                         <editor role="translator">David Unger</editor>
+                    <date when="1996-09">September 1996</date>
+                    <title>Small Hours of the Night: Selected Poems of Roque Dalton</title>
+                    <idno type="isbn">9781880684351</idno>
+                    <publisher>Northwestern University Press</publisher>
+                    <note type="project">Transcribed from digital images of this translated editions of Dalton's poems.</note>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <date when="2015">2015</date>
+                    <title>El Turno del Ofendido</title>
+                    <idno type="isbn">9781925019742</idno>
+                    <publisher>Ocean Sur</publisher>
+                    <note type="project">The Spanish text does not appear in this file, but is available as a PDF on the website.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+           <change who="#ib" when="2024-10-28">Created document and added basic structural TEI.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb facs="madrigal-english.pdf"/>
+            <div1 type="poem">
+               
+                <head type="main-authorial">MADRIGAL</head>
+            
+                <lg type="stanza">
+                
+                    <l>She was more beautiful than a <interp type="marxist-rhetoric">Czechoslovak factory</interp><ptr target="#no1"/></l>
+                    <l>when one thinks of her </l>
+                    <l>after being tortured for four hours</l>
+                    <l>in the brightest and newly aired rooms </l>
+                    <l>at the Headquarters of the <interp type="marxist-rhetoric">National Guard.</interp><ptr target="#no2"/></l>
+                    </lg>
+              <note type="editorial" target="#jg"> [JG] </note>
+            </div1>
+            <note xml:id="no1">Czechoslovakian factories were epicenters of the Soviet working class when this poem was written.
+            To Dalton, this must have been a fantastical landscape for Marxism to propser and enact change.</note>
+            <note xml:id="no2">Dalton refers to a mode of capitalism, namely, the military, and it's detrimental effects on
+            working class masses.</note>
+        </body>
+    </text>
+</TEI>

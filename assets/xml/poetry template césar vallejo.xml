@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" type="xml-dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cesarvallejo">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="m" type="main">César Vallejo</title>
+                <author>Roque Dalton</author>
+                <editor role= "translator" sameAs="#hsm">Hardie St. Martin</editor>
+                <editor role= "translator" xml:id="jg">James Graham</editor>
+                      <editor role= "translator">Jonathan Cohen</editor>
+                       <editor role= "translator">Ralph Nelson</editor>
+                        <editor role= "translator">Paul Pines</editor>
+                         <editor role= "translator">David Unger</editor>
+                <editor role="editor" xml:id="hsm">Hardie St. Martin</editor>
+                <editor role="digital-edition-editor" xml:id="ib">Isabella Baker</editor>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <persName resp="#ib">Isabella Baker</persName>
+                </respStmt>
+                <sponsor>Boston College</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>Fall 2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+            <authority>Isabella Baker</authority>
+                <availability>
+                    <p>Licensed under a
+                        <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+                        (CC BY 4.0). Any reuse of the material should credit Isabella Baker. Permission to reproduce the graphic images of the original item should be sought by the original publisher.
+                    </p>
+                </availability>
+                <idno>cesarvallejo</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">I have chosen my definition and categorization of “marxist rhetoric” based on James Martin's 2022 article “Marx's Rhetoric,”
+                    featured in the Goldsmiths Research online repository. I focus on his detailed explanation of the rhetoric of criticism, dynamics of class
+                    politics, and rhetoric of critical political economy. I often choose to mark phrases that read as “call to actions,” as Martin claims that 
+                    Marx sought to urge the working class to become forces of social and political change. I also zone in on themes of martyrdom, that seem to 
+                    align themselves with critiquing the governing classes while lauding the sacrifices of the lower (or change-making) classes.</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <editor>Hardie St. Martin</editor>
+                    <editor role= "translator">Hardie St. Martin</editor>
+                     <editor role= "translator">James Graham</editor>
+                      <editor role= "translator">Jonathan Cohen</editor>
+                       <editor role= "translator">Ralph Nelson</editor>
+                        <editor role= "translator">Paul Pines</editor>
+                         <editor role= "translator">David Unger</editor>
+                    <date when="1996-09">September 1996</date>
+                    <title>Small Hours of the Night: Selected Poems of Roque Dalton</title>
+                    <idno type="isbn">9781880684351</idno>
+                    <publisher>Northwestern University Press</publisher>
+                    <note type="project">Transcribed from digital images of this translated editions of Dalton's poems.</note>
+                </bibl>
+            </sourceDesc>
+            <sourceDesc>
+                <bibl>
+                    <author>Roque Dalton</author>
+                    <date when="2015">2015</date>
+                    <title>El Turno del Ofendido</title>
+                    <idno type="isbn">9781925019742</idno>
+                    <publisher>Ocean Sur</publisher>
+                    <note type="project">The Spanish text does not appear in this file, but is available as a PDF on the website.</note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+           <change who="#ib" when="2024-10-28">Created document and added basic structural TEI.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb facs="cesar-vallejo-english.pdf"/>
+            <div1 type="poem">
+               
+                <head type="main-authorial"><persName>CÉSAR VALLEJO</persName></head> 
+            
+                <lg type="stanza">
+                
+                    <l>This dead body bursting into flower </l>
+                    <l>—good breeding </l>
+                    <l>raises its knife-edge—</l>
+                    <l>this body not yet introduced to me </l>
+                    <l>better than when it lived <interp type="marxist-rhetoric">yields to death itself </interp><ptr target="#no1"/></l>
+                    <l>it waves its petals to the seeds of love</l>
+                    </lg>
+                    <lg>
+                    <l>This dead body who would have imagined it </l>
+                    <l><interp type="marxist-rhetoric">defending its cup of storms </interp><ptr target="#no2"/></l>
+                    <l>visited by blind circus butterflies </l>
+                    <l>its huge pores dead </l>
+                    <l>its old smokes dead from his sitting there </l>
+                    <l>with only its dead-looking roots alive </l>
+                    <l>prompt with the word it keeps to itself </l>
+                    <l>its eternal slippery hand still trembling </l>
+                    </lg>
+                    <lg>
+                    <l>This dead body that contradicts me </l>
+                    <l>growing shoulder to shoulder with the language </l>
+                    <l>of a <interp type="marxist-rhetoric">just calamity that crackles </interp><ptr target="#no3"/></l>
+                    </lg>
+                    <lg>
+                    <l>This dead body of dry water </l>
+                    <l>this critically ill </l>
+                    <l>dead body whose bones are guests </l>
+                    <l>comes in runs its fingers over its flags </l>
+                    <l><interp type="marxist-rhetoric">interrogates its interrogators</interp><ptr target="#no4"/></l>
+                    <l>this body gives with all its heart the only thing it owns </l>
+                    <l>it wept it comes back and goes away weeping </l>
+                    </lg>
+                    <lg>
+                    <l>Somewhere in the world his tombstone breathes</l>
+                    <l>under the <interp type="marxist-rhetoric">solemn weight</interp><ptr target="#no5"/> of the name he gave life to </l>
+                    <l>one day he said things that will always last </l>
+                    <l>the world is much heavier since his death </l>
+                    </lg>
+              <note type="editorial" target="#hsm"> [HSM] </note>
+            </div1>
+            <note xml:id="no1">"Yielding" to death connotes the finale of a battle of survival. Dalton fought on behalf of the working class
+             and was exiled for his alleged traitorous behavior against the Salvadoran government. The sentiment of being willing to die (for 
+             an anti-capitalist cause) is characterized as honorable, positively attributing Marxist motives.
+              </note>
+            <note xml:id="no2">The "cup of storms" may refer to an individualized, controlled rage against injustice (confined, to a degree). 
+            "Defending" and thus, acting on this individualized, violent rage against injustice is emotionally characteristic of a Marxist "urging" towards 
+            immediate political and social change </note>
+            <note xml:id="no3">Calamity can refer to any notion of disaster, but the notions of a "just" calamity implies that disaster was warranted.
+            Disaster negatively affects populations, but for Marxists, disaster enacted on oppressors may seem justifiable. Such calamity, in turn,
+            "crackles" with the opportunity for an overturning of power.</note>
+            <note xml:id="no4">Interrogation appears most often in the context of a criminal case, where serving justice is the overarching goal. However, 
+            Dalton asks us, in Marxist fashion, to questions those who question us. In other words, one must be critical about the agents that enact social and 
+            political order.</note>
+            <note xml:id="no5">This solemn weight, externally referring to a revered literary figure, may also refer to the burden that every Marxist 
+            revolutionary carries to constantly question the status quo.</note>
+            
+        </body>
+    </text>
+</TEI>
