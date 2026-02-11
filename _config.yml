@@ -1,9 +1,9 @@
 # change the followings to match your Github username and repo name
-baseurl: "/jekyll-project-template" # the name of your github repo
-url: "https://BCDigSchol.github.io" # the url of your github pages (change BCDigSchol to your username)
+baseurl: "/delete-me" # the name of your github repo
+url: "https://theportus.github.io" # the url of your github pages (change BCDigSchol to your username)
 
 # site information used in page title, meta data etc.
-title: "Your Project Name"
+title: "Please Delete Me: I cannot die"
 description: Your Project Description @ Boston College
 
 # color theme for links
@@ -48,3 +48,4 @@ plugins:
     - jekyll-feed
     - jekyll-paginate
     - jekyll-postcss-v2
+
