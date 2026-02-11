@@ -1,4 +1,4 @@
-# jekyll-project-template
+# delete-me
 
 Write a tagline here!
 
